@@ -1,4 +1,5 @@
 import streamlit as st
+
 from contabilidade.indicadores import calcular_todos_indicadores
 from contabilidade.util import montar_df_plano_contas, calcular_variacoes
 

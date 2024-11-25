@@ -1,12 +1,12 @@
 import streamlit as st
 
-from app.exportar_plano_pptx import pagina_exportar_plano_contas
-from app.upload_dados import pagina_upload_dados
-from app.filtragem_dados import pagina_filtragem_dados
-from app.plano_contas import pagina_plano_contas
-from app.indicadores import pagina_indicadores
 from app.comparacao_variacoes import pagina_comparacao_variacoes
+from app.exportar_plano_pptx import pagina_exportar_plano_contas
+from app.filtragem_dados import pagina_filtragem_dados
 from app.graficos_personalizados import pagina_exportar_graficos
+from app.indicadores import pagina_indicadores
+from app.plano_contas import pagina_plano_contas
+from app.upload_dados import pagina_upload_dados
 
 # Inicialização das variáveis de sessão
 if "consolidados" not in st.session_state:

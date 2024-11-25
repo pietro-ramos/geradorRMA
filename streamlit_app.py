@@ -1,4 +1,5 @@
 import streamlit as st
+
 from app.layout import layout_main
 
 # Configuração da página do Streamlit

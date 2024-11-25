@@ -1,10 +1,10 @@
 import pandas as pd
 
-from entidades.BalancoPatrimonial import BalancoPatrimonial, print_balanco
-from contabilidade.util import construir_contas, encontrar_conta_por_codigo, importar_dados_excel, registrar_valores, \
-    filtrar_dados
 from contabilidade.hierarquia_contas import hierarquia_contas
 from contabilidade.indicadores import calcular_todos_indicadores
+from contabilidade.util import construir_contas, encontrar_conta_por_codigo, importar_dados_excel, registrar_valores, \
+    filtrar_dados
+from entidades.BalancoPatrimonial import BalancoPatrimonial
 from graficos.graficos import grafico_indicadores
 
 

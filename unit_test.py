@@ -1,7 +1,9 @@
 import unittest
-from entidades.BalancoPatrimonial import BalancoPatrimonial
+
 from contabilidade.hierarquia_contas import hierarquia_contas
-from contabilidade.util import construir_contas, encontrar_conta_por_nome, encontrar_conta_por_codigo
+from contabilidade.util import construir_contas, encontrar_conta_por_nome
+from entidades.BalancoPatrimonial import BalancoPatrimonial
+
 
 class TestBalancoPatrimonial(unittest.TestCase):
 

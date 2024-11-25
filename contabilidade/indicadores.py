@@ -1,8 +1,7 @@
 import pandas as pd
 import unicodedata
 
-from contabilidade.util import encontrar_conta_por_codigo, encontrar_conta_por_nome
-from entidades.Conta import Conta
+from contabilidade.util import encontrar_conta_por_codigo
 
 
 def obter_valores(balanco, codigo_categoria, nome_categoria):

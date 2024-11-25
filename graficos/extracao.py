@@ -1,5 +1,6 @@
-from contabilidade.util import encontrar_conta_por_codigo
 import pandas as pd
+
+from contabilidade.util import encontrar_conta_por_codigo
 
 
 def extrair_contas_para_modelo(balanco, df_filtrado, modelo):

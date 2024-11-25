@@ -1,5 +1,5 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
 
 from contabilidade.hierarquia_contas import hierarquia_contas
 from contabilidade.util import filtrar_dados, construir_contas, registrar_valores, encontrar_conta_por_codigo
